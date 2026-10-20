@@ -6,14 +6,22 @@
 
 _**Sistema que permite resaltar zonas específicas a color dentro de un entorno en blanco y negro, compatible con VR.**_
 
-
 </header>
-   
-<footer>
-   
-## Después de crear el repositorio desde la plantilla, asegúrate de revisar lo siguiente:
 
-### 📸 Social Preview
-- [ ] Sube una imagen `preview.png` personalizada en `Settings → Social Preview`.
+## Requisitos
 
-</footer>
+* Unity **6000.0.42f1**
+* Render Pipeline: Universal Render Pipeline (URP)
+
+## Contenido
+
+* **Shader Graph:** `BlackAndWhite`
+* **Shaders HLSL:** `StencilMask`
+* **Prefabs:** `Ground Stencil Affected`
+* **Escenas:** `Assets/3-Scenes/Main.unity`
+
+## Uso
+
+1. Clona el repositorio y añádelo en Unity Hub (*Add project from disk*).
+2. Ábrelo con Unity **6000.0.42f1**.
+3. Abre la escena `Assets/3-Scenes/Main.unity` y pulsa **Play**.
